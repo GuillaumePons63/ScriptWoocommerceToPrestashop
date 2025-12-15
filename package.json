@@ -1,0 +1,27 @@
+{
+  "name": "scriptwoocommercetoprestashop",
+  "version": "1.0.0",
+  "description": "Script que j'ai créé pour charger les produits créer sous un wooCommerce vers un prestashop 9. Il utilise l'export XML de wordPress et l'API webservice de prestashop 9.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumePons63/ScriptWoocommerceToPrestashop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GuillaumePons63/ScriptWoocommerceToPrestashop/issues"
+  },
+  "homepage": "https://github.com/GuillaumePons63/ScriptWoocommerceToPrestashop#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "fast-xml-parser": "^5.3.3",
+    "p-limit": "^7.2.0",
+    "undici": "^7.16.0"
+  }
+}
